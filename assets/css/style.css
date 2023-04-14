@@ -51,7 +51,7 @@ h6,
 }
 
 .back-to-top-call {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .back-to-top-call.active {
@@ -119,23 +119,25 @@ h6,
 #header .logo-title {
   font-weight: 600;
 }
-#header .logo .text-light{
-    display:inline-block;
-    vertical-align: middle;
+
+#header .logo .text-light {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-#header .logo .logo-title{
-    display: inline-block;
-    font-size: 1.5rem;
-    vertical-align: middle;
-    padding-left: .5rem;
+#header .logo .logo-title {
+  display: inline-block;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  padding-left: .5rem;
 }
 
 @media (max-width: 360px) {
-    #header .logo .logo-title{
-        font-size: 1.25rem;
-    }
+  #header .logo .logo-title {
+    font-size: 1.25rem;
+  }
 }
+
 #main {
   margin-top: 72px;
 }
@@ -439,12 +441,13 @@ h6,
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-#hero > div > div > div{
-     margin: 70px auto 0 auto !important;
+
+#hero>div>div>div {
+  margin: 70px auto 0 auto !important;
 }
 
 #hero .location {
- color:#eb5d1ebd;
+  color: #eb5d1ebd;
 }
 
 @media (max-width: 991px) {
@@ -542,7 +545,7 @@ h6,
   color: #3c4043;
   border-radius: 24px;
   position: relative;
-  border: 1px solid #dadce0;
+  border: 1px solid #1a3852;
 }
 
 #call .btn-get-started .call-hdr {
@@ -1328,11 +1331,12 @@ section {
 }
 
 #footer .footer-top .footer-contact h4 {
-  font-size: 22px;
-  margin: 0 0 30px 0;
+  font-size: 20px;
+  margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
+  color: #eb5d1e;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1344,7 +1348,7 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #212529;
   position: relative;
